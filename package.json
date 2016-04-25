@@ -1,0 +1,35 @@
+{
+  "name": "hexlet-points",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register test.js",
+    "build": "babel index.js --out-dir dist",
+    "eslint": "eslint",
+
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexlet-components/js-points.git"
+  },
+  "author": "Kirill Mokevnin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hexlet-components/js-points/issues"
+  },
+  "homepage": "https://github.com/hexlet-components/js-points#readme",
+  "dependencies": {
+    "hexlet-pairs": "*"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-preset-stage-0": "*",
+    "babel-preset-es2015": "*",
+    "eslint": "*",
+    "eslint-plugin-import": "*",
+    "eslint-config-airbnb": "*",
+    "mocha": "*"
+  }
+}
