@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "documentation": "documentation",
     "test": "mocha --compilers js:babel-core/register test.js",
     "build": "babel src/index.js --out-dir dist",
     "eslint": "eslint",
@@ -24,9 +25,12 @@
     "hexlet-pairs": "*"
   },
   "devDependencies": {
+    "documentation": "^4.0.0-beta11",
+    "babel-plugin-syntax-flow": "*",
+    "babel-plugin-transform-flow-strip-types": "*",
     "babel-core": "*",
     "babel-preset-stage-0": "*",
-    "babel-preset-es2015": "*",
+    "babel-preset-latest": "*",
     "eslint": "*",
     "eslint-plugin-import": "*",
     "eslint-config-airbnb": "*",

@@ -1,11 +1,31 @@
+// @flow
+
 import * as pairs from 'hexlet-pairs';
 
+/**
+ * Make point
+ */
 export const makePoint = (x, y) => pairs.cons(x, y);
-export const getX = (point) => pairs.car(point);
-export const getY = (point) => pairs.cdr(point);
-export const toString = (point) => pairs.toString(point);
 
-export const quadrant = (point) => {
+/**
+ * Get X
+ */
+export const getX = point => pairs.car(point);
+
+/**
+ * Get Y
+ */
+export const getY = point => pairs.cdr(point);
+
+/**
+ * Convert point to string
+ */
+export const toString = point => pairs.toString(point);
+
+/**
+ * Determine quadrant for given point
+ */
+export const quadrant = point => {
   const x = getX(point);
   const y = getY(point);
 
