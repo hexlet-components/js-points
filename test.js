@@ -1,5 +1,5 @@
 import assert from 'assert';
-import { makePoint, getX, getY, toString, quadrant } from './index.js';
+import { makePoint, getX, getY, toString, quadrant } from './src/index.js';
 
 describe('Points', () => {
   it('#makePoint', () => {
