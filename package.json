@@ -8,7 +8,6 @@
     "test": "mocha --compilers js:babel-core/register test.js",
     "build": "babel src/index.js --out-dir dist",
     "eslint": "eslint",
-
     "prepublish": "npm run build"
   },
   "repository": {
@@ -25,15 +24,15 @@
     "hexlet-pairs": "*"
   },
   "devDependencies": {
-    "documentation": "^4.0.0-beta11",
+    "babel-core": "*",
     "babel-plugin-syntax-flow": "*",
     "babel-plugin-transform-flow-strip-types": "*",
-    "babel-core": "*",
-    "babel-preset-stage-0": "*",
     "babel-preset-latest": "*",
+    "babel-preset-stage-0": "*",
+    "documentation": "^4.0.0-beta11",
     "eslint": "*",
-    "eslint-plugin-import": "*",
     "eslint-config-airbnb": "*",
+    "eslint-plugin-import": "*",
     "mocha": "*"
   }
 }
