@@ -22,15 +22,15 @@
   },
   "homepage": "https://github.com/hexlet-components/js-points#readme",
   "dependencies": {
+    "babel-preset-env": "*",
+    "babel-preset-flow": "*",
+    "babel-preset-stage-0": "*",
     "hexlet-pairs": "*"
   },
   "devDependencies": {
     "babel-core": "*",
     "babel-cli": "*",
     "babel-jest": "*",
-    "babel-preset-env": "*",
-    "babel-preset-flow": "*",
-    "babel-preset-stage-0": "*",
     "documentation": "^4.0.0-beta11",
     "eslint": "*",
     "eslint-config-airbnb": "*",
