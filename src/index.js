@@ -1,15 +1,15 @@
 // @flow
 
-type Point = Point
+import { cons, car, cdr, toString as toStr } from 'hexlet-pairs';
 
-import * as pairs from 'hexlet-pairs';
+type Point = Point;
 
 /**
  * Make a point
  * @example
  * const point = makePoint(4, 5);
  */
-export const makePoint = (x: any, y: any) => pairs.cons(x, y);
+export const makePoint = (x: any, y: any) => cons(x, y);
 
 /**
  * Get X
@@ -17,7 +17,7 @@ export const makePoint = (x: any, y: any) => pairs.cons(x, y);
  * const point = makePoint(4, 5);
  * getX(point); // 4
  */
-export const getX = (point: Point) => pairs.car(point);
+export const getX = (point: Point) => car(point);
 
 /**
  * Get Y
@@ -25,7 +25,7 @@ export const getX = (point: Point) => pairs.car(point);
  * const point = makePoint(8, -2);
  * getY(point); // -2
  */
-export const getY = (point: Point) => pairs.cdr(point);
+export const getY = (point: Point) => cdr(point);
 
 /**
  * Convert point to string
@@ -33,7 +33,7 @@ export const getY = (point: Point) => pairs.cdr(point);
  * const point = makePoint(0, 10);
  * toString(point); // (0, 10)
  */
-export const toString = (point: Point) => pairs.toString(point);
+export const toString = (point: Point) => toStr(point);
 
 /**
  * Determine quadrant for given point
@@ -55,4 +55,6 @@ export const quadrant = (point: Point) => {
   } else if (x > 0 && y < 0) {
     return 4;
   }
+
+  return null;
 };

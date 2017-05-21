@@ -1,14 +1,15 @@
 {
   "name": "hexlet-points",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "documentation": "documentation",
-    "test": "mocha --compilers js:babel-core/register test.js",
+    "test": "jest --colors",
     "build": "babel src/index.js --out-dir dist",
     "eslint": "eslint",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "flow-typed": "flow-typed"
   },
   "repository": {
     "type": "git",
@@ -25,14 +26,14 @@
   },
   "devDependencies": {
     "babel-core": "*",
-    "babel-plugin-syntax-flow": "*",
-    "babel-plugin-transform-flow-strip-types": "*",
-    "babel-preset-latest": "*",
+    "babel-jest": "*",
+    "babel-preset-env": "*",
+    "babel-preset-flow": "*",
     "babel-preset-stage-0": "*",
     "documentation": "^4.0.0-beta11",
     "eslint": "*",
     "eslint-config-airbnb": "*",
-    "eslint-plugin-import": "*",
-    "mocha": "*"
+    "eslint-plugin-flowtype": "*",
+    "jest": "*"
   }
 }
