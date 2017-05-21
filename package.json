@@ -1,6 +1,6 @@
 {
   "name": "hexlet-points",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -28,8 +28,8 @@
     "hexlet-pairs": "*"
   },
   "devDependencies": {
-    "babel-core": "*",
     "babel-cli": "*",
+    "babel-core": "*",
     "babel-jest": "*",
     "documentation": "^4.0.0-beta11",
     "eslint": "*",
