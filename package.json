@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/hexlet-components/js-points#readme",
   "dependencies": {
-    "source-map-support": "*",
     "babel-preset-env": "*",
     "babel-preset-flow": "*",
     "babel-preset-stage-0": "*",
@@ -31,11 +30,13 @@
   "devDependencies": {
     "babel-cli": "*",
     "babel-core": "*",
-    "babel-jest": "*",
-    "documentation": "*",
+    "babel-jest": "^22.4.3",
+    "documentation": "^6.3.2",
     "eslint": "*",
     "eslint-config-airbnb": "*",
     "eslint-plugin-flowtype": "*",
-    "jest": "*"
+    "eslint-plugin-jest": "^21.15.1",
+    "jest": "*",
+    "jest-cli": "^22.4.3"
   }
 }

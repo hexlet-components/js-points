@@ -1,7 +1,5 @@
 // @flow
 
-import 'source-map-support/register';
-
 import { cons, car, cdr, toString as toStr } from 'hexlet-pairs';
 
 type Point = Point;
