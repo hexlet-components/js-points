@@ -1,4 +1,10 @@
-import { makePoint, getX, getY, toString, quadrant } from '../src';
+import {
+  makePoint,
+  getX,
+  getY,
+  toString,
+  quadrant,
+} from '../src';
 
 describe('Points', () => {
   it('#makePoint', () => {
