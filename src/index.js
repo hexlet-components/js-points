@@ -1,6 +1,11 @@
 // @flow
 
-import { cons, car, cdr, toString as toStr } from 'hexlet-pairs';
+import {
+  cons,
+  car,
+  cdr,
+  toString as toStr,
+} from '@hexlet/pairs';
 
 type Point = Point;
 type Quadrant = 1 | 2 | 3 | 4;
@@ -49,11 +54,14 @@ export const quadrant = (point: Point): ?Quadrant => {
 
   if (x > 0 && y > 0) {
     return 1;
-  } else if (x < 0 && y > 0) {
+  }
+  if (x < 0 && y > 0) {
     return 2;
-  } else if (x < 0 && y < 0) {
+  }
+  if (x < 0 && y < 0) {
     return 3;
-  } else if (x > 0 && y < 0) {
+  }
+  if (x > 0 && y < 0) {
     return 4;
   }
 

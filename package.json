@@ -1,6 +1,6 @@
 {
-  "name": "hexlet-points",
-  "version": "1.0.7",
+  "name": "@hexlet/points",
+  "version": "1.0.9",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -25,16 +25,18 @@
     "babel-preset-env": "*",
     "babel-preset-flow": "*",
     "babel-preset-stage-0": "*",
-    "hexlet-pairs": "*"
+    "@hexlet/pairs": "*"
   },
   "devDependencies": {
     "babel-cli": "*",
     "babel-core": "*",
+    "babel-eslint": "^10.0.2",
     "babel-jest": "^22.4.3",
     "documentation": "^6.3.2",
     "eslint": "*",
     "eslint-config-airbnb": "*",
     "eslint-plugin-flowtype": "*",
+    "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jest": "^21.15.1",
     "jest": "*",
     "jest-cli": "^22.4.3"
