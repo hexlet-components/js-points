@@ -1,3 +1,5 @@
+// @ts-check
+
 import {
   makePoint,
   getX,
