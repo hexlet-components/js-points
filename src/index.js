@@ -1,4 +1,4 @@
-// @flow
+// @ts-check
 
 import {
   cons,
@@ -7,15 +7,12 @@ import {
   toString as toStr,
 } from '@hexlet/pairs';
 
-type Point = Point;
-type Quadrant = 1 | 2 | 3 | 4;
-
 /**
  * Make a point
  * @example
  * const point = makePoint(4, 5);
  */
-export const makePoint = (x: Number, y: Number): Point => cons(x, y);
+export const makePoint = (x, y) => cons(x, y);
 
 /**
  * Get X
@@ -23,7 +20,7 @@ export const makePoint = (x: Number, y: Number): Point => cons(x, y);
  * const point = makePoint(4, 5);
  * getX(point); // 4
  */
-export const getX = (point: Point): number => car(point);
+export const getX = (point) => car(point);
 
 /**
  * Get Y
@@ -31,7 +28,7 @@ export const getX = (point: Point): number => car(point);
  * const point = makePoint(8, -2);
  * getY(point); // -2
  */
-export const getY = (point: Point): number => cdr(point);
+export const getY = (point) => cdr(point);
 
 /**
  * Convert point to string
@@ -39,7 +36,7 @@ export const getY = (point: Point): number => cdr(point);
  * const point = makePoint(0, 10);
  * toString(point); // (0, 10)
  */
-export const toString = (point: Point): string => toStr(point);
+export const toString = (point) => toStr(point);
 
 /**
  * Determine quadrant for given point
@@ -48,7 +45,7 @@ export const toString = (point: Point): string => toStr(point);
  * quadrant(makePoint(1, 5)); // 1
  * quadrant(makePoint(-3, 10)); // 2
  */
-export const quadrant = (point: Point): ?Quadrant => {
+export const quadrant = (point) => {
   const x = getX(point);
   const y = getY(point);
 
