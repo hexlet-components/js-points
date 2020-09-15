@@ -6,7 +6,7 @@ import {
   getY,
   toString,
   quadrant,
-} from '../src';
+} from '../index.js';
 
 describe('Points', () => {
   it('#makePoint', () => {

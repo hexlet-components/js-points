@@ -1,14 +1,15 @@
 {
   "name": "@hexlet/points",
-  "version": "1.0.12",
+  "version": "1.1.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "documentation": "documentation",
-    "test": "jest --colors",
-    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
-    "eslint": "eslint",
-    "prepublishOnly": "npm run build"
+    "test": "npx -n --experimental-vm-modules -n --no-warnings jest --colors"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "repository": {
     "type": "git",
@@ -21,20 +22,15 @@
   },
   "homepage": "https://github.com/hexlet-components/js-points#readme",
   "dependencies": {
-    "@hexlet/pairs": "^1.0.15"
+    "@hexlet/pairs": "^1.1.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
-    "babel-eslint": "^10.1.0",
-    "babel-jest": "^26.1.0",
     "documentation": "^13.0.2",
-    "eslint": "^7.4.0",
+    "eslint": "^7.9.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^23.18.0",
-    "jest": "^26.1.0",
-    "jest-cli": "^26.1.0"
+    "eslint-plugin-jest": "^24.0.1",
+    "jest": "^26.4.2",
+    "jest-cli": "^26.4.2"
   }
 }
