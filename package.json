@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": ">=26.0"
+  },
   "scripts": {
     "documentation": "documentation",
-    "test": "npx -n --experimental-vm-modules -n --no-warnings jest --colors"
-  },
-  "jest": {
-    "testEnvironment": "node"
+    "test": "vitest run",
+    "lint": "biome check ."
   },
   "repository": {
     "type": "git",
@@ -25,12 +26,8 @@
     "@hexlet/pairs": "^1.1.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.2.4",
     "documentation": "^14.0.0",
-    "eslint": "^8.15.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.1.5",
-    "jest": "^28.1.0",
-    "jest-cli": "^28.1.0"
+    "vitest": "^4.0.15"
   }
 }
