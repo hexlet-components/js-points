@@ -1,12 +1,6 @@
 // @ts-check
 
-import {
-  makePoint,
-  getX,
-  getY,
-  toString,
-  quadrant,
-} from '../index.js';
+import { getX, getY, makePoint, quadrant, toString } from '../index.js';
 
 describe('Points', () => {
   it('#makePoint', () => {
