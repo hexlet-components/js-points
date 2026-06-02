@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/hexlet-components/js-points#readme",
   "dependencies": {
-    "@hexlet/pairs": "^1.1.1"
+    "@hexlet/pairs": "^2.0.1"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.4",
