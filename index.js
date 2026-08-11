@@ -1,6 +1,6 @@
 // @ts-check
 
-import { car, cdr, cons, toString as toStr } from '@hexlet/pairs';
+import { car, cdr, cons, toString as toStr } from "@hexlet/pairs";
 
 /**
  * Make a point
