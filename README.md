@@ -3,6 +3,16 @@
 [![github action status](https://github.com/hexlet-components/js-points/workflows/Node%20CI/badge.svg)](https://github.com/hexlet-components/js-points/actions)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/hexlet-components/js-points/blob/master/index.js)
 
+## Зачем это нужно
+
+Точки на плоскости поверх
+[@hexlet/pairs](https://github.com/hexlet-components/js-pairs): точка это пара
+координат, отрезок это пара точек.
+
+Нужна курсам, где на маленьком примере показывают, как из одного абстрактного
+типа собирается следующий, и почему пользователю точки неважно, что внутри
+лежит пара.
+
 ## Install
 
 ```sh
