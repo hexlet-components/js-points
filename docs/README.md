@@ -6,21 +6,21 @@
 
 ### Table of Contents
 
--   [makePoint][1]
-    -   [Parameters][2]
-    -   [Examples][3]
--   [getX][4]
-    -   [Parameters][5]
-    -   [Examples][6]
--   [getY][7]
-    -   [Parameters][8]
-    -   [Examples][9]
--   [toString][10]
-    -   [Parameters][11]
-    -   [Examples][12]
--   [quadrant][13]
-    -   [Parameters][14]
-    -   [Examples][15]
+- [makePoint][1]
+    - [Parameters][2]
+    - [Examples][3]
+- [getX][4]
+    - [Parameters][5]
+    - [Examples][6]
+- [getY][7]
+    - [Parameters][8]
+    - [Examples][9]
+- [toString][10]
+    - [Parameters][11]
+    - [Examples][12]
+- [quadrant][13]
+    - [Parameters][14]
+    - [Examples][15]
 
 ## makePoint
 
@@ -28,8 +28,8 @@ Make a point
 
 ### Parameters
 
--   `x`  
--   `y`  
+- `x`  
+- `y`  
 
 ### Examples
 
@@ -43,7 +43,7 @@ Get X
 
 ### Parameters
 
--   `point`  
+- `point`  
 
 ### Examples
 
@@ -58,7 +58,7 @@ Get Y
 
 ### Parameters
 
--   `point`  
+- `point`  
 
 ### Examples
 
@@ -73,7 +73,7 @@ Convert point to string
 
 ### Parameters
 
--   `point`  
+- `point`  
 
 ### Examples
 
@@ -88,7 +88,7 @@ Determine quadrant for given point
 
 ### Parameters
 
--   `point`  
+- `point`  
 
 ### Examples
 
